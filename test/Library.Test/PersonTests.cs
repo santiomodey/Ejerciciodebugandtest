@@ -31,8 +31,8 @@ namespace Tests
         }
         [Test]
            
-            public void IngresoNombreVacio ()
-            {
+        public void IngresoNombreVacio ()
+        {
             string Expected = null;
             Person persona= new Person ("","1.223.456-3");
             Assert.AreEqual(Expected,persona.Name);
